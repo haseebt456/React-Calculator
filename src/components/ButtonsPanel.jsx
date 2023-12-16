@@ -30,7 +30,7 @@ export default function ButtonsPanel() {
     <Button name="+"/>
     </div>
     <div className='group5'>
-        <Button name="0"/>
+        <Button name="0" wide={true}/>
         <Button name="."/>
         <Button name="="/>
     </div>

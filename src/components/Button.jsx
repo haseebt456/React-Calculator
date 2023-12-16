@@ -1,8 +1,11 @@
 import React from 'react'
 import './button.css';
 
-export const Button = (props) => {
+export const Button = ({name,color,wide}) => {
+    const buttonStyle = {
+        backgroundColor: color || 'orange', // Default to orange if color prop is not provided
+      };
   return (
-    <button>{props.name}</button>
+    <button className={wide===true? 'wide':''} style={buttonStyle}>{name}</button>
   )
 }
