@@ -1,0 +1,12 @@
+#display {
+    background-color: #d3d3d3; /* Gray background */
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end; /* Align text to the right */
+    padding: 0 20px; /* Padding from edges */
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+  }
+  
