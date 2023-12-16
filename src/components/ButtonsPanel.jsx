@@ -4,6 +4,7 @@ import {Button} from './Button'
 export default function ButtonsPanel() {
   return (
     <>
+    <div id="button-pannel">
     <div className='group1'>
     <Button name="AC"/>
     <Button name="+/-"/>
@@ -32,6 +33,7 @@ export default function ButtonsPanel() {
         <Button name="0"/>
         <Button name="."/>
         <Button name="="/>
+    </div>
     </div>
     </>
   )
