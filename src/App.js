@@ -5,7 +5,7 @@ import DisplayResult from './components/DisplayResult';
 function App() {
   return (
     <>
-    <DisplayResult/>
+    <DisplayResult result='0'/>
     <ButtonsPanel/>
     </>
   );
