@@ -5,8 +5,10 @@ import DisplayResult from './components/DisplayResult';
 function App() {
   return (
     <>
+    <div id='calculator'>
     <DisplayResult result='0'/>
     <ButtonsPanel/>
+    </div>
     </>
   );
 }
