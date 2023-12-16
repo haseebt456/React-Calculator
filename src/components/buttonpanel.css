@@ -4,7 +4,7 @@
   }
   
   /* Each row (display and group buttons) should have a height of 100px */
-  #button-panel > div {
+  #button-pannel > div {
     display: flex;
     height: 100px;
   }

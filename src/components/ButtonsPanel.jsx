@@ -1,5 +1,6 @@
 import React from 'react'
 import {Button} from './Button'
+import './buttonpanel.css';
 export default function ButtonsPanel() {
   return (
     <>

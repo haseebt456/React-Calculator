@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import './display.css';
 
 export default function DisplayResult(props) {
   return (
